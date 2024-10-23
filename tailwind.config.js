@@ -13,7 +13,7 @@ module.exports = {
 
       // font
       fontFamily: {
-        // poppins: ["Poppins", "sans-serif"],
+        poppins: ["Poppins", "sans-serif"],
       },
 
       // ukuran web

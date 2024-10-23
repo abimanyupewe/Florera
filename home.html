@@ -13,7 +13,132 @@
     />
     <title>Landing page Florera</title>
   </head>
-  <body>
-    
+  <body class="font-poppins">
+    <!-- hero section -->
+    <section>
+      <div class="relative">
+        <!-- Navigation -->
+        <!-- Header Start -->
+        <header
+          class="bg-transparent absolute top-0 left-0 w-full flex items-center z-10"
+        >
+          <div class="container mx-auto sm:px-16 md:px-8 lg:px-12">
+            <div class="flex items-center justify-between relative">
+              <!-- Element Kiri (Brand) -->
+              <div class="flex">
+                <a
+                  href="#home"
+                  class="font-black text-lg text-neon_green block py-6"
+                >
+                  GOLDEN MONK
+                </a>
+              </div>
+              <!-- Element Kanan (Navigation) -->
+              <div class="flex items-center px-4">
+                <!-- Hamburger Menu for Mobile -->
+                <button
+                  id="hamburger"
+                  name="hamburger"
+                  type="button"
+                  class="block absolute right-4 lg:hidden"
+                >
+                  <span
+                    class="hamburger-line transition duration-300 ease-in-out origin-top-left"
+                  ></span>
+                  <span
+                    class="hamburger-line transition duration-300 ease-in-out"
+                  ></span>
+                  <span
+                    class="hamburger-line transition duration-300 ease-in-out origin-bottom-left"
+                  ></span>
+                </button>
+
+                <!-- Navbar for Larger Screens -->
+                <nav
+                  id="nav-menu"
+                  class="lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none hidden absolute py-5 bg-slate-600 shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full"
+                >
+                  <ul class="block lg:flex">
+                    <li class="group">
+                      <a
+                        href="#home"
+                        class="text-base font-medium text-slate-200 py-2 mx-8 flex group-hover:text-neon_green hover:underline group-hover:font-semibold"
+                        >Home</a
+                      >
+                    </li>
+                    <li class="group">
+                      <a
+                        href="#about_me"
+                        class="text-base font-medium text-slate-200 py-2 mx-8 flex group-hover:text-neon_green hover:underline group-hover:font-semibold"
+                        >About Me</a
+                      >
+                    </li>
+                    <li class="group">
+                      <a
+                        href="#project_me"
+                        class="text-base font-medium text-slate-200 py-2 mx-8 flex group-hover:text-neon_green hover:underline group-hover:font-semibold"
+                        >Project Me</a
+                      >
+                    </li>
+                    <li class="group">
+                      <a
+                        href="#colaborations"
+                        class="text-base font-medium text-slate-200 py-2 mx-8 flex group-hover:text-neon_green hover:underline group-hover:font-semibold"
+                        >Colab</a
+                      >
+                    </li>
+                    <li class="group">
+                      <a
+                        href="#contact"
+                        class="text-base font-medium text-slate-200 py-2 mx-8 flex group-hover:text-neon_green hover:underline group-hover:font-semibold"
+                        >Contact</a
+                      >
+                    </li>
+                    <!-- Tambahkan Login ke daftar untuk Mobile -->
+                    <li class="group lg:hidden">
+                      <a
+                        href="#login"
+                        class="text-base font-medium text-slate-200 py-2 mx-8 flex group-hover:text-neon_green hover:underline group-hover:font-semibold"
+                        >Login</a
+                      >
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+              <!-- Tombol Login untuk desktop -->
+              <a
+                href="#login"
+                class="text-base font-medium bg-neon_green text-slate-900 py-2 px-6 rounded-lg ml-8 hover:bg-green-500 transition hidden lg:block"
+                >Login
+              </a>
+            </div>
+          </div>
+        </header>
+        <!-- Header End -->
+
+        <!-- Hero Section -->
+        <section
+          class="hero h-screen flex items-center justify-center bg-cover bg-center bg-slate-600"
+        >  
+          <div class="text-center">
+            <h1 class="text-white text-5xl font-bold">
+              Welcome to Our Website
+            </h1>
+            <p class="text-white mt-4">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>
+            <a
+              href="#"
+              class="mt-6 inline-block bg-blue-500 text-white px-4 py-2 rounded"
+              >Get Started</a
+            >
+          </div>
+        </section>
+      </div>
+    </section>
+    <!-- hero section end-->
+
+    <!-- script javascript -->
+    <script src="src/script/home.js"></script>
   </body>
 </html>
